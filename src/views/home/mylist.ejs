@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    
+    <!-- Meta Tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    
+    <title>SMU Hackaton</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="images/favicon/apple-touch-icon.png">
+    
+    <!-- All CSS Plugins -->
+    <link rel="stylesheet" type="text/css" href="css/plugin.css">
+    
+    <!-- Main CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- Google Web Fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
+    
+    
+    <!--Add toggle-->
+    <link rel="stylesheet" type="text/css" href="css/toggle.css">
+    <link rel="stylesheet" href="/css/test.css">
+    <link rel="stylesheet" href="/css/mylist.css">
+
+ </head>
+
+ <body style="background-color: black;">
+    
+    
+	
+	<!-- Preloader Start -->
+    <div id="preloader">
+	  <div class="loader"></div>
+    </div>
+    <!-- Preloader End -->
+
+    
+    
+    <!-- Home & Menu Section Start -->
+    <header id="home">
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                  <!-- 여기가 로고랑 메뉴 사이 벌리기 클수록 많이 벌어짐-->
+                    <div class="col-sm-6">
+                        <div class="logo">
+                            <!--<a href="/">Rolling</a>-->
+                            <a href="/"><img src="/img/logo.png" style="width: 50px; height:30px"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="navigation-menu">
+                            <div class="navbar">
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav me-auto">
+                                        <li class="nav-item"><a id="menu" style="color: #E0FB60;" href="#home">Home <div class="ripple-wrapper"></div></a>
+                                        </li>
+                                        <li style="display: none;" id="mypage_menu"><a id="menu" style="color: #15FFFF" href="/mylist">MyList</a>
+                                        </li>
+                                        <li id="login_menu" class="nav-item"><a id="menu" style="color: #E0FB60;" href="login">Login</a>
+                                        </li>
+                                        <li id="signup_menu"><a id="menu" style="color: #E0FB60;" href="register">Sign up</a>
+                                        </li>
+                                        <li style="display: none;" id="logout_menu"><a id="menu" style="color: #E0FB60;">Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div style="text-align: center;">
+        <h1 class="mylist_text">MY LIST</h1>
+        <br>
+        <br>
+        <br>
+
+
+       
+        <div style="float: left;"></div>
+        <div style="float: right;"></div>
+            
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class = "mypage_png">
+                <img class ="disk_png_first" src="/img/disk.png">
+                <img id = "left_list" src="/img/left_list.png" onclick="likelist()">
+                <h1 class="mylist_text_lbt">Like</h1>
+                <img class ="disk_png_second" src="/img/disk.png">
+                <img id = "right_list" src="/img/right_list.png" onclick="lessviewcount()">
+                <h1 class="mylist_text_rbt">Popular</h1>
+    </div>
+
+    <script>
+        
+
+
+
+        function likelist(){
+        location.href = "likelist";
+        }
+
+        function lessviewcount(){
+            location.href = "lessviewcount";
+        }
+    </script>
+
+   
+    
+       
+        
+    
+    
+    <!—  
+    JavaScripts
+    =============================================
+    —>
+    <script src="/lib/jquery/dist/jquery.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/lib/wow/dist/wow.js"></script>
+    <script src="/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="/lib/smoothscroll.js"></script>
+    <script src="/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    
+    <!— All Javascript Plugins  —>
+    <script src="js/home/plugins.js"></script>
+    
+    <!— Main Javascript File  —>
+    <script src="js/home/scripts.js"></script>
+    <script src="js/home/main.js"></script>
+  
+
+  
+  </body>
+ </html>
