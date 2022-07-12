@@ -3,6 +3,7 @@
 
 ## 개발환경
 * Node.js v16
+* Npm v8.3.1
 * Iframe
 * MySQL workbench
 
