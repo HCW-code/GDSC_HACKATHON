@@ -1,4 +1,5 @@
-# GDSC_HACKATHON
+# GDSC_HACKATHON 1회
+
 일상의 역발상(흔치않은 듣기 좋은 음악 추천 웹)
 
 ## 개발환경
